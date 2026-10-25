@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="62" viewBox="0 0 360 62">
+  <text x="2" y="34" font-family="Titillium Web" font-weight="700" font-size="38" letter-spacing="6" fill="#f2e6c8">CINEMATIC</text>
+  <line x1="3" y1="47" x2="64" y2="47" stroke="#c9a45c" stroke-width="2.5"/>
+  <text x="74" y="56" font-family="Titillium Web" font-weight="400" font-size="22" letter-spacing="15" fill="#c9a45c">NOIR</text>
+  <text x="232" y="56" font-family="Titillium Web" font-weight="400" font-size="11" letter-spacing="3" fill="#7d7563">MILLIANO</text>
+</svg>

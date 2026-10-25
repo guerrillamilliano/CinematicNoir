@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="48" viewBox="0 0 470 48">
+  <!-- A small amber screen behind a text field (FX tab), the same glass as the PLAY tab's display. -->
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1307"/><stop offset="1" stop-color="#0c0803"/></linearGradient>
+    <radialGradient id="b" cx="0.5" cy="0.45" r="0.65"><stop offset="0" stop-color="#ff9d2e" stop-opacity="0.14"/><stop offset="1" stop-color="#ff9d2e" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#ffb547" fill-opacity="0.045"/></pattern>
+  </defs>
+  <rect x="0" y="0" width="470" height="48" rx="5" fill="#2a2a2d"/>
+  <rect x="0.5" y="0.5" width="469" height="47" rx="5" fill="none" stroke="#000000" stroke-opacity="0.7"/>
+  <rect x="3" y="3" width="464" height="42" rx="3" fill="#000000"/>
+  <rect x="4" y="4" width="462" height="40" rx="3" fill="url(#s)"/>
+  <rect x="4" y="4" width="462" height="40" rx="3" fill="url(#b)"/>
+  <rect x="4" y="4" width="462" height="40" rx="3" fill="url(#p)"/>
+  <rect x="4" y="4" width="462" height="40" rx="3" fill="none" stroke="#000000" stroke-opacity="0.85" stroke-width="3"/>
+  <polygon points="4,4 156,4 117,44 4,44" fill="#ffffff" fill-opacity="0.035"/>
+</svg>

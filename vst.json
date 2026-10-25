@@ -1,0 +1,30 @@
+{
+ "name": "Cinematic Noir",
+ "vendor": "Milliano",
+ "uid": "MNoi",
+ "version": 1000,
+ "so": "noir.so",
+ "params": "params.json",
+ "layout": "layout.conf",
+ "art": "html",
+ "programs": {"param": "preset"},
+ "tile": "art/tile.png",
+ "skin_post": "skin_post.py",
+ "defines": {
+  "HAS_LFO_BPM": 1,
+  "HAS_DISPLAY_REV": 1,
+  "DISPLAY_REV_NO_UPDATE": 1,
+  "PARAM_TEXT_MAX": 96
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "ports/noir/src/noir.c"
+  ],
+  "cflags": ["-O2"],
+  "libs": [
+   "-lm",
+   "-lpthread"
+  ]
+ }
+}

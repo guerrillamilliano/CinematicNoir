@@ -1,0 +1,20 @@
+/* Cinematic Noir (tools/html_art/default.css lists every class): black lacquer, bone text, brass accents. */
+:root { --sheen: 0.04; --radius: 3px; --title-size: 16px; --label-size: 16px; --seg-size: 16px; --button-size: 16px;
+        --shadow: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8)); }
+.frame-border { fill: #111113; stroke: #2c2822; stroke-width: 1; }
+.frame-rule { stroke: #2c2822; }
+.frame-title { font-size: 16px; font-weight: 600; fill: #c9a45c; letter-spacing: 0.32em; }
+.text { fill: #a39a86; letter-spacing: 0.2em; }
+.knob-track { stroke: #2e2a24; }
+.knob-face { fill: #19191b; stroke: #3a352c; stroke-width: 1.5; }
+.knob-arc, .knob-pointer { stroke: #c9a45c; }
+.seg-bg { rx: 3px; stroke: #e6a74a; stroke-opacity: 0.28; stroke-width: 1; }
+.seg-tx { font-weight: 600; letter-spacing: 0.12em; }
+.button-bg { rx: 3px; }
+.button-tx { font-weight: 700; letter-spacing: 0.18em; }
+/* text fields are see-through: the hardware screens drawn behind them (art/display.svg, art/lcd_small.svg) show */
+.box { fill: none; stroke: none; }
+/* stepper arrows: outlined soft-keys on the glass */
+.arrow-bg { fill: #ffb547; fill-opacity: 0.08; stroke: #e6a74a; stroke-opacity: 0.5; stroke-width: 1; }
+.arrow { fill: #ffb547; }
+.box-label { fill: #b07a2e; letter-spacing: 0.2em; }
