@@ -40,6 +40,11 @@ To install on an external drive instead, add `-t <its Synths folder>` (for examp
 drive-exec patch, such as "Auto exec" from the mpc-vst-plugins patches. To remove it: `sh uninstall.sh` from the same
 folder, with the same `-t` if you used one. Updating keeps the `User` folder. `INSTALL.md` in the zip has the details.
 
+**MPC 3.10.1 and later:** switch on *Settings > Enhancements > External Plugin Support*. The installer notices 3.10.1 and
+installs into a `VST2 Plugins` folder (an existing one on an attached drive, otherwise the internal drive's) as
+`Milliano - Cinematic Noir`, with the `plugin.json` that MPC needs. It leaves MPC.settings alone and needs no drive-exec patch.
+On older MPC 3 versions it installs as before. Zips downloaded before 13 November 2026 predate this: download again.
+
 Then add **Cinematic Noir** to a track from the plugin browser.
 
 ## Build
