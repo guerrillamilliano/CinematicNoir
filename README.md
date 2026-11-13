@@ -42,7 +42,8 @@ folder, with the same `-t` if you used one. Updating keeps the `User` folder. `I
 
 **MPC 3.10.1 and later:** switch on *Settings > Enhancements > External Plugin Support*. The installer notices 3.10.1 and
 installs into a `VST2 Plugins` folder (an existing one on an attached drive, otherwise the internal drive's) as
-`Milliano - Cinematic Noir`, with the `plugin.json` that MPC needs. It leaves MPC.settings alone and needs no drive-exec patch.
+`Milliano - Cinematic Noir`, with the `plugin.json` that MPC needs, and puts the skin in that drive's `Synths` folder (MPC 3.10.1
+still draws the plugin's screen from there, so keep it). It leaves MPC.settings alone and needs no drive-exec patch.
 On older MPC 3 versions it installs as before. Zips downloaded before 13 November 2026 predate this: download again.
 
 Then add **Cinematic Noir** to a track from the plugin browser.
